@@ -1,17 +1,33 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        <Version>8.0.0</Version>
-    </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
 
-    <ItemGroup>
-      <PackageReference Include="FluentValidation" Version="12.0.0" />
-      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
-      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.3" />
-      <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.2" />
-    </ItemGroup>
+    <!-- Versionado -->
+    <Version>8.0.0</Version>
+    <AssemblyVersion>8.0.0.0</AssemblyVersion>
+    <FileVersion>8.0.0.0</FileVersion>
 
-</Project>
+    <!-- Metadatos NuGet -->
+    <Authors>TuNombre</Authors>
+    <Company>TuEmpresa</Company>
+    <PackageId>NombreDeTuPaquete</PackageId>
+    <Title>Nombre de tu paquete NuGet</Title>
+    <Description>Descripción corta de tu librería, su objetivo y utilidad.</Description>
+    <PackageProjectUrl>https://github.com/TuUsuario/TuRepositorio</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TuUsuario/TuRepositorio.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>nuget;dotnet;library</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <!-- Opcionales -->
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Primera publicación en NuGet</PackageReleaseNotes>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+    <PackageReference Include="Microsoft.Extensions
