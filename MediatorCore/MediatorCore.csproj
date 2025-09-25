@@ -33,7 +33,7 @@
 
   <!-- Incluye README.md en el paquete -->
   <ItemGroup>
-    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="../README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
