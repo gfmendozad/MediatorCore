@@ -1,4 +1,4 @@
-namespace MediatorCore.Exceptions;
+namespace QuickMediator.Exceptions;
 
 /// <summary>
 /// Excepción lanzada cuando no se encuentra un handler para un comando o consulta específica

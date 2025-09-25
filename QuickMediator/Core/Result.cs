@@ -1,4 +1,4 @@
-namespace MediatorCore.Core;
+namespace QuickMediator.Core;
 
 /// <summary>
 /// Resultado de operación que encapsula éxito o fallo con datos tipados

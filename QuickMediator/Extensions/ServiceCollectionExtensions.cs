@@ -1,17 +1,17 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
-using MediatorCore.Contracts;
-using MediatorCore.Core;
+using QuickMediator.Contracts;
+using QuickMediator.Core;
 
-namespace MediatorCore.Extensions;
+namespace QuickMediator.Extensions;
 
 /// <summary>
-/// Extensiones para configurar MediatorCore en el contenedor de dependencias
+/// Extensiones para configurar QuickMediator en el contenedor de dependencias
 /// </summary>
 public static class ServiceCollectionExtensions
 {
     /// <summary>
-    /// Registra MediatorCore y todos los handlers encontrados en los assemblies especificados
+    /// Registra QuickMediator y todos los handlers encontrados en los assemblies especificados
     /// </summary>
     /// <param name="services">Colección de servicios</param>
     /// <param name="assemblies">Assemblies donde buscar handlers. Si no se especifica, usa el assembly que llama</param>

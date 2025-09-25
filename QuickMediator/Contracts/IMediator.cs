@@ -1,4 +1,4 @@
-namespace MediatorCore.Contracts;
+namespace QuickMediator.Contracts;
 
 /// <summary>
 /// Mediador principal para ejecutar comandos y consultas siguiendo el patrón CQRS

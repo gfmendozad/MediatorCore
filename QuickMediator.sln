@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorCore", "MediatorCore\MediatorCore.csproj", "{A75314DE-C24A-4EC0-B1C4-9FEC77013EDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickMediator", "QuickMediator\QuickMediator.csproj", "{A75314DE-C24A-4EC0-B1C4-9FEC77013EDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

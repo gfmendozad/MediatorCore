@@ -1,4 +1,4 @@
-namespace MediatorCore.Core;
+namespace QuickMediator.Core;
 
 /// <summary>
 /// Tipo vacío para comandos que no devuelven respuesta específica

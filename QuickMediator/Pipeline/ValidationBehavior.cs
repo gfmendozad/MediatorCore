@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using MediatorCore.Contracts;
-using MediatorCore.Pipeline;
+using QuickMediator.Pipeline;
+using QuickMediator.Contracts;
 
-namespace MediatorCore.Pipeline;
+namespace QuickMediator.Pipeline;
 
 public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
 {

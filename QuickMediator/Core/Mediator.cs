@@ -1,9 +1,9 @@
-using MediatorCore.Contracts;
-using MediatorCore.Exceptions;
-using MediatorCore.Pipeline;
 using Microsoft.Extensions.DependencyInjection;
+using QuickMediator.Contracts;
+using QuickMediator.Exceptions;
+using QuickMediator.Pipeline;
 
-namespace MediatorCore.Core;
+namespace QuickMediator.Core;
 
 /// <summary>
 /// Implementación principal del mediador para el patrón CQRS

@@ -1,4 +1,4 @@
-namespace MediatorCore.Contracts;
+namespace QuickMediator.Contracts;
 
 /// <summary>
 /// Handler para procesar consultas que devuelven datos

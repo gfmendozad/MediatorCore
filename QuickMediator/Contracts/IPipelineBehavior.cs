@@ -1,6 +1,6 @@
-using MediatorCore.Pipeline;
+using QuickMediator.Pipeline;
 
-namespace MediatorCore.Contracts;
+namespace QuickMediator.Contracts;
 
 /// <summary>
 /// Comportamiento del pipeline para interceptar y procesar comandos/consultas

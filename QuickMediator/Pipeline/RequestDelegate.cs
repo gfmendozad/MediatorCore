@@ -1,4 +1,4 @@
-namespace MediatorCore.Pipeline;
+namespace QuickMediator.Pipeline;
 
 /// <summary>
 /// Delegado para la ejecución del siguiente paso en el pipeline

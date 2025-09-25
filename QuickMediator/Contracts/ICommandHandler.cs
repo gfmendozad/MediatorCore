@@ -1,6 +1,6 @@
-using MediatorCore.Core;
+using QuickMediator.Core;
 
-namespace MediatorCore.Contracts;
+namespace QuickMediator.Contracts;
 
 /// <summary>
 /// Handler para procesar comandos con respuesta específica

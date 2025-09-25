@@ -1,4 +1,4 @@
-name: Publish MediatorCore to NuGet
+name: Publish QuickMediator to NuGet
 
 on:
   push:

@@ -1,6 +1,6 @@
-using MediatorCore.Core;
+using QuickMediator.Core;
 
-namespace MediatorCore.Contracts;
+namespace QuickMediator.Contracts;
 
 /// <summary>
 /// Representa un comando que produce una respuesta específica

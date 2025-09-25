@@ -1,4 +1,4 @@
-# MediatorCore
+# QuickMediator
 
 Una librería ligera y eficiente para implementar el patrón **CQRS (Command Query Responsibility Segregation)** en .NET, inspirada en MediatR pero con nombres únicos y funcionalidades personalizadas.
 
@@ -15,7 +15,7 @@ Una librería ligera y eficiente para implementar el patrón **CQRS (Command Que
 ## 📦 Instalación
 
 ```bash
-dotnet add package MediatorCore
+dotnet add package QuickMediator
 ```
 
 **Dependencias requeridas:**
@@ -29,15 +29,15 @@ dotnet add package FluentValidation.DependencyInjectionExtensions
 ### 1. Registro en Program.cs
 
 ```csharp
-using MediatorCore.Extensions;
-using MediatorCore.Pipeline;
+using QuickMediator.Extensions;
+using QuickMediator.Pipeline;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-// Registrar MediatorCore (auto-descubre handlers y validators)
-builder.Services.AddMediatorCore(typeof(Program).Assembly);
+// Registrar QuickMediator (auto-descubre handlers y validators)
+builder.Services.AddQuickMediator(typeof(Program).Assembly);
 
 // Opcional: Agregar ValidationBehavior al pipeline
 builder.Services.AddScoped(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
@@ -174,7 +174,7 @@ public class UsersController(IMediator mediator) : ControllerBase
 
 ```csharp
 using FluentValidation;
-using MediatorCore.Contracts;
+using QuickMediator.Contracts;
 
 public class CreateUserValidator : AbstractValidator<CreateUserCommand>, IAbstractValidator<CreateUserCommand>
 {
@@ -195,7 +195,7 @@ public class CreateUserValidator : AbstractValidator<CreateUserCommand>, IAbstra
 
 ```csharp
 // Program.cs
-builder.Services.AddMediatorCore(typeof(Program).Assembly);
+builder.Services.AddQuickMediator(typeof(Program).Assembly);
 builder.Services.AddScoped(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 ```
 
@@ -305,7 +305,7 @@ await mediator.QueryAsync<List<UserDto>>(new GetAllUsersQuery { ... });
 
 ### CRUD Básico
 
-Ver el [ejemplo completo en GitHub](https://github.com/tu-usuario/mediatorcore-samples) con:
+Ver el [ejemplo completo en GitHub](https://github.com/tu-usuario/QuickMediator-samples) con:
 - ✅ Operaciones CRUD completas
 - ✅ Validación automática
 - ✅ Manejo de errores
@@ -315,7 +315,7 @@ Ver el [ejemplo completo en GitHub](https://github.com/tu-usuario/mediatorcore-s
 
 ¿Encontraste un bug o tienes una sugerencia?
 
-1. Crea un [issue](https://github.com/tu-usuario/mediatorcore/issues)
+1. Crea un [issue](https://github.com/tu-usuario/QuickMediator/issues)
 2. Fork el proyecto
 
 ## 📄 Licencia
@@ -324,4 +324,4 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 
 ---
 
-**MediatorCore** - Una alternativa ligera y personalizable a MediatR 🚀
+**QuickMediator** - Una alternativa ligera y personalizable a MediatR 🚀

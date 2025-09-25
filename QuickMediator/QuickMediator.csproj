@@ -9,18 +9,18 @@
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <FileVersion>8.0.0.0</FileVersion>
 
-    <PackageId>MediatorCore</PackageId>
-    <Title>MediatorCore</Title>
-    <Authors>MediatorCore</Authors>
-    <Company>MediatorCore</Company>    
-    <PackageProjectUrl>https://github.com/GFernando98/MediatorCore</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/GFernando98/MediatorCore.git</RepositoryUrl>
+    <PackageId>QuickMediator</PackageId>
+    <Title>QuickMediator</Title>
+    <Authors>QuickMediator</Authors>
+    <Company>QuickMediator</Company>    
+    <PackageProjectUrl>https://github.com/GFernando98/QuickMediator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/GFernando98/QuickMediator.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>mediator;dotnet;nuget;library;core</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes>Primera publicación oficial de MediatorCore en NuGet</PackageReleaseNotes>
+    <PackageReleaseNotes>Primera publicación oficial de QuickMediator en NuGet</PackageReleaseNotes>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 

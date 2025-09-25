@@ -1,4 +1,4 @@
-namespace MediatorCore.Contracts;
+namespace QuickMediator.Contracts;
 
 /// <summary>
 /// Representa una consulta que devuelve datos sin modificar el estado del sistema

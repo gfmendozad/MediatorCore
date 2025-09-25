@@ -1,7 +1,7 @@
-namespace MediatorCore.Exceptions;
+namespace QuickMediator.Exceptions;
 
 /// <summary>
-/// Excepción base para todos los errores relacionados con MediatorCore
+/// Excepción base para todos los errores relacionados con QuickMediator
 /// </summary>
 public abstract class MediatorCoreException : Exception
 {
