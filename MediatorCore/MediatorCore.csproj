@@ -13,8 +13,8 @@
     <!-- Metadatos NuGet -->
     <PackageId>MediatorCore</PackageId>
     <Title>MediatorCore</Title>
-    <Authors>TuNombre</Authors>
-    <Company>TuEmpresa</Company>
+    <Authors>MediatorCore</Authors>
+    <Company>MediatorCore</Company>
     <Description>Librería para manejar mediación ligera en .NET con soporte a inyección de dependencias, logging y opciones.</Description>
     <PackageProjectUrl>https://github.com/TuUsuario/MediatorCore</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TuUsuario/MediatorCore.git</RepositoryUrl>
